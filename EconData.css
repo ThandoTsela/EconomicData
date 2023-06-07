@@ -1,0 +1,34 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  h1 {
+    font-family: verda,arial,sans-serif;
+    color:white;
+  }
+  
+  p {
+    color:white;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    background:black;
+    color:black;
+    margin: 2rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  button {
+    padding:10px;
+    border-radius: 10px
+  }
